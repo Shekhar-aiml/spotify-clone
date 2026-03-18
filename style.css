@@ -18,7 +18,7 @@ body {
       
 /*logo*/
  .logo {
-    background-image: url(logo\ png.png);
+    background-image: url(logo1.png);
     height: 35px;
     width: 35px;
     background-size: contain;
@@ -306,5 +306,24 @@ body {
 
 .login-in:hover{
   transform: background-color 0.3s ease;
+}
+
+/*sidebar*/
+
+.sidebar {
+    position: relative;
+display: flex;
+height: 1100px;
+width: 430px;
+background-color:white;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    height: 2000px;
+    width: 1085px;
+    background-color: aqua;
+    margin-left: 440px;
 }
 
